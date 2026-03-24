@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+
+//Entity에서는 Setter를 설정하지 않는것이 일반적인 패턴이다.
+
 @Entity
 @Builder
 @AllArgsConstructor
